@@ -32,5 +32,9 @@ public class Pessoa {
 	public void AlterarIdade(int idadePar){
 		this.idade = idadePar;
 	}
+	
+	public void exibirInfo(){
+		
+	}
 
 }
