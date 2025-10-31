@@ -33,8 +33,12 @@ public class Pessoa {
 		this.idade = idadePar;
 	}
 	
-	public void exibirInfo(){
-		
+	//Classe Pessoa
+	public void mostrarInformacoes(){
+		System.out.println(id); 
+		System.out.println(nome);
+		System.out.println(idade);
 	}
 
+	
 }

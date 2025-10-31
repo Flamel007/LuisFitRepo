@@ -17,7 +17,12 @@ public class Treinador extends Pessoa {
 		this.especialidade = especialidadePar;
 	}
 	
-	
+	@Override
+	public void mostrarInformacoes(){
+		System.out.println("Dados do Treinador");
+		System.out.println();
+		System.out.println("_______________________________________");
+	}
 	
 	
 }

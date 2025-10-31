@@ -17,5 +17,12 @@ public class Atleta extends Pessoa{
 		this.modalidade = modalidadePar;
 	}
 		
+	@Override
+	public void mostrarInformacoes(){
+		System.out.println("Dados do atleta");
+		System.out.println();
+		System.out.println("_______________________________________");
+	}
+	
 	}
 
